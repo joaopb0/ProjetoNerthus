@@ -1,6 +1,6 @@
 # Nerthus Hosting - Apresentação Conceitual 🚀
 
-Este repositório documenta a visão e o design de uma landing page para a **Nerthus**, uma marca fictícia de hospedagem de servidores web.
+Este repositório documenta a visão e o design de uma landing page para a **Nerthus**, uma futura marca de hospedagem de servidores web.
 
 O principal objetivo do projeto é comunicar os valores da marca — velocidade, segurança e simplicidade — através de uma interface limpa, intuitiva e moderna.
 
