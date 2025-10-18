@@ -1,5 +1,6 @@
 body {
-  padding: 50px;
+  margin: 0;
+  padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -8,7 +9,9 @@ a {
 }
 
 #navindex {
-  /* Um tom de azul escuro. Você pode trocar o código
-     #2c3e50 por qualquer cor que preferir. */
   background-color: #007efc !important; 
+}
+
+#heroindex {
+  min-height: 91.3vh;
 }
