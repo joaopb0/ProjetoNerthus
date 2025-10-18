@@ -6,3 +6,9 @@ body {
 a {
   color: #00B7FF;
 }
+
+#navindex {
+  /* Um tom de azul escuro. Você pode trocar o código
+     #2c3e50 por qualquer cor que preferir. */
+  background-color: #007efc !important; 
+}
