@@ -9,9 +9,13 @@ a {
 }
 
 #navindex {
-  background-color: #007efc !important; 
+  background-color: #5caaf8 !important; 
 }
 
 #heroindex {
   min-height: 91.3vh;
+}
+
+#tituloindex {
+  font-size: 30px;
 }
