@@ -14,6 +14,14 @@ a {
 
 #heroindex {
   min-height: 91.3vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 68, 255)), url('/images/logonerthus.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #tituloindex {
