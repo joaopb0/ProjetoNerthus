@@ -27,3 +27,70 @@ a {
 #tituloindex {
   font-size: 30px;
 }
+
+#herohome {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/NerthusWebWork.png');
+  min-height: 50vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+.hero-text h2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+
+.hero-topic strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-topic p {
+  font-size: 0.95rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: #5caaf8;
+  margin-right: 1rem;
+}
+
+#hero-sobre {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/logonerthus.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 8rem 0;
+  display: flex;
+  align-items: center;
+}
+
+#hero-sobre .lead {
+  color: rgba(255, 255, 255, 0.85);
+}

@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/stylesheets/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Sobre Nós</title>
 </head>
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navindex">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="/">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link" href="#">Sobre</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contato</a>
@@ -28,41 +29,109 @@
 </nav>
 </header>
 <body class="d-flex flex-column min-vh-100">
-    <section class="hero-section text-white" id="heroindex">
 
-    <div class="container text-center py-5">
-      
-      <h2 class="display-3 fw-bold" id="tituloindex">Nerthus Webwork: Do Código à Nuvem, a Solução Completa para o seu Negócio.</h2>
-      
-      <div class="col-lg-8 mx-auto text-start">
-        <p class="lead my-4">
-          Na Nerthus Webwork, nascemos para simplificar sua jornada digital. Nosso principal objetivo é oferecer uma solução de ponta a ponta, que vai desde o desenvolvimento de sistemas web sob medida até a hospedagem de alta performance para eles.
+    <section id="hero-sobre">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center container">
+                <h1 class="display-5 fw-bold">Desenvolvimento e Infraestrutura Unificados</h1>
+                <p class="lead mt-4">A Nerthus foi fundada sob o princípio de que a performance de uma aplicação web depende da sinergia entre o código e a infraestrutura que a suporta. Nosso modelo de serviço elimina a fragmentação entre equipes de desenvolvimento e provedores de hospedagem, centralizando a responsabilidade técnica para garantir máxima eficiência e estabilidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-9 mx-auto">
+                    <h2 class="fw-bold">Nossos Pilares Técnicos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex">
+                        <i class="bi bi-code-slash feature-icon"></i>
+                        <div class="text-start">
+                            <h4 class="fw-bold">Desenvolvimento Focado</h4>
+                            <p class="text-muted">Desenvolvemos aplicações com código limpo e otimizado, utilizando tecnologias modernas para garantir performance, escalabilidade e manutenibilidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex">
+                        <i class="bi bi-hdd-stack-fill feature-icon"></i>
+                        <div class="text-start">
+                            <h4 class="fw-bold">Infraestrutura Otimizada</h4>
+                            <p class="text-muted">Provisionamos servidores e configuramos ambientes de hospedagem sob medida para cada aplicação, assegurando alta disponibilidade e baixa latência.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex">
+                        <i class="bi bi-headset feature-icon"></i>
+                        <div class="text-start">
+                            <h4 class="fw-bold">Suporte Centralizado</h4>
+                            <p class="text-muted">Centralizamos o suporte técnico em uma única equipe. Resolvemos demandas de código e infraestrutura de forma integrada, eliminando a complexidade de múltiplos fornecedores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="row text-center mb-5">
+            <div class="col-lg-9 mx-auto">
+                <h2 class="fw-bold">Nossos Diferenciais</h2>
+                <p class="lead text-muted">A abordagem unificada da Nerthus oferece vantagens técnicas e operacionais significativas.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="d-flex">
+                    <i class="bi bi-person-check-fill feature-icon"></i>
+                    <div class="text-start">
+                        <h5 class="fw-bold">Ponto Único de Contato (SPOC)</h5>
+                        <p class="text-muted">Centralizamos toda a comunicação técnica. Você tem um único ponto de contato para todas as demandas, do front-end ao servidor, simplificando a gestão e acelerando a tomada de decisões.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="d-flex">
+                    <i class="bi bi-layers-fill feature-icon"></i>
+                    <div class="text-start">
+                        <h5 class="fw-bold">Otimização Full-Stack</h5>
+                        <p class="text-muted">Como gerenciamos tanto o código quanto a infraestrutura, realizamos otimizações de performance de ponta a ponta. Ajustamos o servidor para o seu código e o seu código para o servidor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="d-flex">
+                    <i class="bi bi-tools feature-icon"></i>
+                    <div class="text-start">
+                        <h5 class="fw-bold">Resolução Integrada de Incidentes</h5>
+                        <p class="text-muted">Quando um problema ocorre, nossa equipe tem a visibilidade completa do ambiente para diagnosticar e resolver a causa raiz rapidamente, sem conflitos de responsabilidade.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="d-flex">
+                    <i class="bi bi-shield-shaded feature-icon"></i>
+                    <div class="text-start">
+                        <h5 class="fw-bold">Segurança Coordenada</h5>
+                        <p class="text-muted">Implementamos uma estratégia de segurança unificada que abrange a aplicação e o servidor. Isso inclui desde a configuração de firewalls até a proteção contra vulnerabilidades no código.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5 my-4 text-center">
+        <h2 class="fw-bold">Inicie seu Projeto Conosco</h2>
+        <p class="lead text-muted mb-4">Entre em contato para discutir as necessidades técnicas do seu projeto.</p>
+        <a href="/contato" class="btn btn-primary btn-lg px-4">
+          Fale Conosco
         </p>
-        <p class="lead my-4">
-          Chega de gerenciar múltiplos fornecedores e se preocupar com a compatibilidade entre aplicação e servidor. Nós cuidamos de tudo.
-        </p>
-
-        <h4 class="fw-bold mt-5">Nossos pilares são:</h4>
-        <ul class="list-unstyled mt-3 lead">
-          <li class="mb-3"><strong>Desenvolvimento Inteligente:</strong> Criamos sistemas rápidos, seguros e intuitivos, focados na experiência do seu usuário e nos resultados do seu negócio.</li>
-          <li class="mb-3"><strong>Hospedagem Otimizada:</strong> Nossos servidores são configurados para extrair o máximo de desempenho das aplicações que desenvolvemos, garantindo estabilidade e velocidade.</li>
-          <li class="mb-3"><strong>Gestão Simplificada:</strong> Oferecemos um ponto único de contato e suporte. Qualquer necessidade, seja no código ou na infraestrutura, é resolvida por nossa equipe.</li>
-        </ul>
-
-        <p class="lead my-4">
-          Com a Nerthus Webwork, seu projeto sai do papel e vai para o ar com a agilidade, segurança e simplicidade que você merece.
-        </p>
-      </div>
-
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        
-        <a href="#" class="btn btn-primary btn-lg px-4 gap-3">
-          Comece Agora
-        </a>
-      
-      </div>
-      
-  </section>
+    </section>
 </body>
 <footer>
 
