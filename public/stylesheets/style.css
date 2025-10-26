@@ -9,7 +9,16 @@ a {
 }
 
 #navindex {
-  background-color: #5caaf8 !important; 
+  background-color: #000000 !important;
+}
+
+#navindex .navbar-brand,
+#navindex .nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+#navindex .nav-link:hover {
+  color: #ffffff !important;
 }
 
 #heroindex {
@@ -93,4 +102,8 @@ a {
 
 #hero-sobre .lead {
   color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar-logo {
+  height: 40px;
 }
