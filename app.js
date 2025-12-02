@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var helmet = require('helmet');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -21,6 +22,20 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        ...helmet.contentSecurityPolicy.getDefaultDirectives(),
+        "script-src-elem": ["'self'", "https://cdn.jsdelivr.net"],
+        "style-src": ["'self'", "https://cdn.jsdelivr.net", "https://use.typekit.net"],
+        "connect-src": ["'self'", "https://cdn.jsdelivr.net"],
+        "font-src": ["'self'", "https://cdn.jsdelivr.net", "https://use.typekit.net", "https://fonts.gstatic.com", "data:"],
+        "img-src": ["'self'", "data:"],
+      },
+    },
+  })
+);
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
