@@ -27,7 +27,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 68, 255)), url('/images/logonerthus.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 68, 255)), url('/images/LogoNerthus.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ a {
 }
 
 #hero-sobre {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/logonerthus.jpeg');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/LogoNerthus.jpeg');
   background-size: cover;
   background-position: center;
   color: white;
